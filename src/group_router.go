@@ -16,8 +16,7 @@ func main() {
 		v1.GET("/users", users)
 	}
 
-	router.Run()
-}
+	router.Run()}
 
 func article(context *gin.Context) {
 	context.JSON(200, gin.H{
